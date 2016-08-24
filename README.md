@@ -7,7 +7,7 @@ In other words, even if you have millions of different values, the algorithm wil
 within some acceptable error bound.
 
 The datastructure used is described by the paper [Efficient Computation of Frequent and Top-k Elements in Data Streams](http://www.cse.ust.hk/~raywong/comp5331/References/EfficientComputationOfFrequentAndTop-kElementsInDataStreams.pdf)
-by *Ahmed Metwally , Divyakant Agrawal, and Amr El Abbadi*
+by *Ahmed Metwally, Divyakant Agrawal, and Amr El Abbadi*
 
 It is a a ϴ(1) "constant time" insert and  ϴ(k) lookup for the *topk* entries.
 
